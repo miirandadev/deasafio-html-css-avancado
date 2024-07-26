@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: url("../images/bg-desktop.svg") center 0 no-repeat;
+    background-size: cover;
+    background-color: var(--primary);
+    height: 100vh;
+}
+
+.header {
+    padding: 48px 64px;
+}
+
+.header .img-logo {
+    width: 190px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: "Open Sans", sans-serif;
+    padding: 3rem;
+    position: relative;
+}
+
+.main .infos {
+    color: #fff;
+    padding: 2rem;
+    margin-top: 2rem;
+    margin: 0 50px;
+    max-width: 600px;
+    position: relative;
+}
+
+.main .infos .text {
+    font-weight: 300;
+    margin-top: 1rem;
+    font-size: 20px;
+}
+
+.main .infos .btn-register {
+    width: 170px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 3.5rem;
+    font-size: 20px;
+}
+
+main .infos .btn-register:hover {
+    color: #fff;
+    background-color: var(--primary-soft);
+    cursor: pointer;
+}
+
+main .infos .contacts {
+    display: flex;
+    justify-content: flex-end;
+}
+
+main .infos .contacts ul {
+    display: flex;
+    position: absolute;
+    gap: 30px;
+    bottom: 0;
+}
+
+
+main .contacts ul li a {
+    border-radius: 50%;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 2.2rem;
+    padding: 0.8rem;
+    display: flex;
+}
+
+main .contacts ul li a:hover {
+    cursor: pointer;
+    color: var(--primary-soft);
+    border: 2px solid var(--primary-soft);
+} 
