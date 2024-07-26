@@ -76,11 +76,14 @@
         background: url("../images/bg-mobile.svg") center 0 no-repeat;
         background-size: cover;
         background-color: var(--primary);
-        position: absolute;
     }
 
     .header {
         padding: 28px 48px;
+    }
+
+    .main {
+        padding: 0;
     }
 
     .main .main-image .image {
@@ -88,12 +91,12 @@
     }
 
     .main .infos {
-        margin-top: 4rem;
         position: relative;
         margin: 0;
     }
 
     .main .infos .title {
+        margin-top: 5rem;
         font-size: 27px;
         text-align: center; 
     }
@@ -101,7 +104,7 @@
     .main .infos .text {
         text-align: center;
         margin-top: 3rem;
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .main .infos .container-btn {
@@ -117,5 +120,10 @@
         justify-content: center;        
     }
 }
+
+@media(max-width: 395px) {
+
+}
+
 
 
